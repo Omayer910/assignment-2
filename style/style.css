@@ -1,0 +1,64 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+/* common styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* main camera and text part  */
+.first-part{
+    display: flex;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.half-width{
+    width: 50%;
+}
+.button{
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    padding: 10px, 24px, 10px, 24px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+}
+/* popular tytle  */
+.middle-part{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.second-title{
+    color: black;
+    text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+    width: 329px;
+    height: 476px;
+}
+
+.course-ratings{
+    display: flex;
+    gap: 0.3%;
+    
+}
+/* star styles */
+.star{
+    color: orange;
+}
+/* products style  */
+.product .product-banner img{
+    width: 300px;
+    height: 256px;
+}
+/* Third part that is camera future  */
+ 
+/* bonus-part */
+.bonus-part img{
+    
+    display: block;
+}
